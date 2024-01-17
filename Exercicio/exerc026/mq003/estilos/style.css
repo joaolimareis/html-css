@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2041ff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+    text-shadow: 3px 3px 0px #0d1755;
+    padding: 10px;
+}
+
+/*declaraçoes empe*/
+@media screen and (orientation: portrait) {
+    body{
+background-image: url(../imagens/cev-portrait.jpg);
+background-position: center bottom;
+}
+
+}
+
+/*declaraçoes deitado*/
+@media screen and (orientation: landscape) {
+    body{
+background-image: url(../imagens/cev-landscape.jpg);
+background-position: left bottom;
+         }
+    }
