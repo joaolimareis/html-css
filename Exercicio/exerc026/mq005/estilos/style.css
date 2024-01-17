@@ -21,11 +21,26 @@ header > h1{
     text-align: center;
 }
 
-menu{
+.material-icons{
+    background-color: rgb(37, 37, 37);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
 }
 
-menu >ul{
+.material-icons:hover{
+    background-color: rgb(153, 153, 153);
+    color: black;
+}
+
+
+menu{
+    display: none;
+}
+
+menu > ul{
     list-style-type: none;
 }
 
